@@ -12,4 +12,4 @@ sleep 2
 
 # $init is set by sekexe
 source /etc/profile.d/phpenv.sh
-cd $(dirname $init)/.. && php bin/phpunit -c phpunit.xml.dist
+cd $(dirname $init)/.. && /home/travis/.phpenv/shims/php bin/phpunit -c phpunit.xml.dist
