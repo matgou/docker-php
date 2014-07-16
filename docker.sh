@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=$PATH:/home/travis/.phpenv/bin
+export PATH=$PATH:$HOME/.phpenv/bin
 eval "$(phpenv init -)"
 phpenv rehash 2>/dev/null
 
