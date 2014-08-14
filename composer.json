@@ -5,7 +5,7 @@
     "description": "A Docker PHP client",
     "autoload": {
         "psr-0": {
-            "": "src/"
+            "Docker": "src/"
         }
     },
     "require": {
